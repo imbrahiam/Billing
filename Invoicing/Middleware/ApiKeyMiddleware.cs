@@ -21,7 +21,7 @@ namespace Invoicing.Middleware
             }
             var appSettings = context.RequestServices.GetRequiredService<IConfiguration>();
             var apiKey = appSettings.GetValue<string>(APIKEY);
-            if (!apiKey.Equals(extractedApiKey))
+            if (!apiKey!.Equals(extractedApiKey))
             {
                 context.Response.StatusCode = 401;
                 await context.Response.WriteAsync("Unathorized client");
