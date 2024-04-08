@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invoicing", "Invoicing\Invoicing.csproj", "{32E6F78A-C26D-4599-80FD-FAB07C6C39C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32E6F78A-C26D-4599-80FD-FAB07C6C39C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E6F78A-C26D-4599-80FD-FAB07C6C39C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E6F78A-C26D-4599-80FD-FAB07C6C39C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E6F78A-C26D-4599-80FD-FAB07C6C39C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE350A61-944C-433A-9048-614F5BE07021}
+	EndGlobalSection
+EndGlobal
